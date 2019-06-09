@@ -1,0 +1,6 @@
+---
+ - name: testing the ansible tower
+   hosts: all
+   tasks:
+     - name: testing the task
+       shell: df -hT
