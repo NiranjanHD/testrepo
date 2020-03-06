@@ -3,4 +3,4 @@
    hosts: all
    tasks:
      - name: testing the task
-       shell: df -hT
+       shell: df -h
